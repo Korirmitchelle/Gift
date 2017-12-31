@@ -1,0 +1,65 @@
+.test{
+    text-align: right;
+    padding: 410px 0;
+}
+.relove{
+    animation: love  1s infinite linear ;
+    transform: rotate(-20deg) ;
+}
+.lelove{
+    animation: lovee  1s infinite linear ;
+    transform: rotate(-2deg) ;
+     animation-delay: 0.1s;
+}
+.elove{
+    animation: opacityEye  1s infinite linear ;
+}
+.socail {
+	position: fixed;
+	top: 15%;
+	left: 15%;
+	height: 60px;
+	width: 60px;
+  cursor: pointer;
+	border-radius: 40px ;
+	
+  z-index: 100
+}
+ .circle {
+width: 10px;
+height: 10px;
+border-radius: 50%;
+background-color: #FBE8D3;
+border: 1px solid #928A97;
+display: none
+}
+@-webkit-keyframes love{
+    from{
+       transform: rotate(0deg) ;
+        
+        opacity: 0.8
+    }to{
+        transform: rotate(-30deg);
+        opacity: 0.3;
+    }
+}
+@-webkit-keyframes lovee{
+    from{
+       transform: rotate(0deg) ;
+        
+        opacity: 1
+    }to{
+        transform: rotate(-30deg);
+        opacity: 0.3;
+    }
+}
+
+@-webkit-keyframes opacityEye{
+    from{
+        
+        opacity: 0.3
+    }to{
+       
+        opacity: 1;
+    }
+}
